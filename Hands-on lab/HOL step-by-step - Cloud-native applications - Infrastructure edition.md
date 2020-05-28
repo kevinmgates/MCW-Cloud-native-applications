@@ -770,7 +770,7 @@ In this task, you will push images to your ACR account, version images with tagg
 
 ### Task 8: Setup CI Pipeline to Push Images (SKIP THIS)
 
-*** skip this step - you will need to do this manually ***
+*** skip this step - you will need to do this manually any time you need to push a new image to ACR ***
 
 ## Exercise 2: Deploy the solution to Azure Kubernetes Service
 

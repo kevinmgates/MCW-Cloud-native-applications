@@ -46,7 +46,7 @@ Microsoft and the trademarks listed at https://www.microsoft.com/en-us/legal/int
     - [Task 4: Deploy a service using a Helm chart](#task-4-deploy-a-service-using-a-helm-chart)
     - [Task 5: Initialize database with a Kubernetes Job](#task-5-initialize-database-with-a-kubernetes-job)
     - [Task 6: Test the application in a browser](#task-6-test-the-application-in-a-browser)
-    - [Task 7: Configure Continuous Delivery to the Kubernetes Cluster](#task-7-configure-continuous-delivery-to-the-kubernetes-cluster)
+    - [Task 7: Configure Continuous Delivery to the Kubernetes Cluster (SKIP THIS)](#task-7-configure-continuous-delivery-to-the-kubernetes-cluster)
     - [Task 8: Review Azure Monitor for Containers](#task-8-review-azure-monitor-for-containers)
   - [Exercise 3: Scale the application and test HA](#exercise-3-scale-the-application-and-test-ha)
     - [Task 1: Increase service instances from the Kubernetes dashboard](#task-1-increase-service-instances-from-the-kubernetes-dashboard)

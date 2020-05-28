@@ -581,17 +581,20 @@ with them on the build agent.
    sudo chown -R $USER:$(id -gn $USER) /home/adminfabmedical/.config
    ```
 
-3. Visit the `content-web` repository in Azure DevOps and select "Clone" in the
-   right corner.
-
-   ![The content-web repository page is displayed with the Clone button selected.](media/b4-image55.png)
-
-4. Copy the repository URL.
-
-5. Use the repository URL to clone the content-web code to your build agent machine.
+3. Type the following command and press `<ENTER>`:
 
    ```bash
-   git clone <REPOSITORY_URL>
+   git clone https://github.com/microsoft/MCW-Cloud-native-applications.git
+   ```
+
+4. The lab files download.
+
+   ![In this screenshot of a Bash window, git clone has been typed and run at the command prompt. The output from git clone is shown.](media/b4-2019-09-30_21-25-06.png)
+
+5. We do not need the `.git` folder, and later steps will be less complex if we remove it. Run this command:
+
+   ```bash
+   rm -rf MCW-Cloud-native-applications/.git
    ```
 
    > **Note**: In some cases, the `root` user owns your user's `.config` folder. If this happens, run the following command to return ownership to `adminfabmedical` and then try the `git` command again:
@@ -599,16 +602,6 @@ with them on the build agent.
    ```bash
    sudo chown -R $USER:$(id -gn $USER) /home/adminfabmedical/.config
    ```
-
-6. When prompted for a password, use your PAT token from previous steps.
-
-7. In your browser, switch to the `content-api` repository and select "Clone" to see and copy the repository URL.
-
-8. Use the repository URL and `git clone` to copy the content-api code to your build agent.
-
-9. In your browser, switch to the `content-init` repository and select "Clone" to see and copy the repository URL.
-
-10. Use the repository URL and `git clone` to copy the content-init code to your build agent.
 
 > **Note**: Keep this cloud shell window open as your build agent SSH
 > connection. The lab instructs you to open additional cloud shell sessions

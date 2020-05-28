@@ -38,7 +38,7 @@ Microsoft and the trademarks listed at https://www.microsoft.com/en-us/legal/int
     - [Task 5: Setup environment variables](#task-5-setup-environment-variables)
     - [Task 6: Run several containers with Docker compose](#task-6-run-several-containers-with-docker-compose)
     - [Task 7: Push images to Azure Container Registry](#task-7-push-images-to-azure-container-registry)
-    - [Task 8: Setup CI Pipeline to Push Images](#task-8-setup-ci-pipeline-to-push-images)
+    - [Task 8: Setup CI Pipeline to Push Images (SKIP THIS)](#task-8-setup-ci-pipeline-to-push-images)
   - [Exercise 2: Deploy the solution to Azure Kubernetes Service](#exercise-2-deploy-the-solution-to-azure-kubernetes-service)
     - [Task 1: Tunnel into the Azure Kubernetes Service cluster](#task-1-tunnel-into-the-azure-kubernetes-service-cluster)
     - [Task 2: Deploy a service using the Kubernetes management dashboard](#task-2-deploy-a-service-using-the-kubernetes-management-dashboard)
@@ -768,9 +768,9 @@ In this task, you will push images to your ACR account, version images with tagg
     docker image pull [LOGINSERVER]/content-web:v1
     ```
 
-### Task 8: Setup CI Pipeline to Push Images
+### Task 8: Setup CI Pipeline to Push Images (SKIP THIS)
 
-*** skip this step ***
+*** skip this step - you will need to do this manually ***
 
 ## Exercise 2: Deploy the solution to Azure Kubernetes Service
 

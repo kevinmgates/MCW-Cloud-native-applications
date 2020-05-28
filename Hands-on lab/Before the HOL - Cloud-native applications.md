@@ -294,7 +294,7 @@ In this section, you configure and execute an ARM template that creates all the 
 
    This command takes up to 30 to 60 minutes to deploy all lab resources. You can continue to the next task to setup Azure DevOps while the deployment runs.
 
-### Task 7: Setup Azure DevOps project
+### Task 7: Setup Azure DevOps project (SKIP THIS)
 
 FabMedical has provided starter files for you. They have taken a copy of the websites for their customer Contoso Neuro and refactored it from a single node.js site into a website with a content API that serves up the speakers and sessions. This refactored code is a starting point to validate the containerization of their websites. Use this to help them complete a POC that validates the development workflow for running the website and API as Docker containers and managing them within the Azure Kubernetes Service environment.
 
